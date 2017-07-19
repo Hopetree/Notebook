@@ -1,2 +1,3 @@
 # Notebook
-Personal learning notebook
+Personal learning notebook</br>
+Study notes
