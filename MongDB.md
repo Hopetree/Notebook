@@ -1,6 +1,6 @@
 ## mongoimport mongo导入Json的用法
 - step1:
-</br>进入mongodb\bin
+</br>cmd进入mongodb\bin
 - step2:
 </br>按照json文件格式选择命令：
     - 导入json
