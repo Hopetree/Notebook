@@ -1,3 +1,4 @@
+## 将mongodb添加到系统服务的时候，命令行CMD需要用管理员权限打开，否则添加会失败
 ## mongoimport mongo导入Json的用法
 - step1:
 </br>cmd进入mongodb\bin
@@ -7,3 +8,4 @@
     </br>`mongoimport --db db_name --collection collection_name --file d:/testfile/test.json`
     - 导入Json数组（JSON文件是一个列表的格式，一般都是用这个）
     </br>`mongoimport --db ML_OER --collection lecture --file /home/tmp/course_temp.json --jsonArray`
+    
