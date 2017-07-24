@@ -17,7 +17,6 @@
     - step5
     </br>打开系统该服务，开始MongoDB
     </br>如果无法开启服务，且报错代号100，则打开mongodb\data\db文件夹，删除mongod.lock和storage.bson
-    
 ## mongoimport mongo导入Json的用法
 - step1:
 </br>cmd进入mongodb\bin
@@ -27,3 +26,4 @@
     </br>`mongoimport --db db_name --collection collection_name --file d:/testfile/test.json`
     - 导入Json数组（JSON文件是一个列表的格式，一般都是用这个）
     </br>`mongoimport --db ML_OER --collection lecture --file /home/tmp/course_temp.json --jsonArray`
+    
