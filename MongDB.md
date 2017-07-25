@@ -1,5 +1,4 @@
 ## mongodb的安装和设置成系统服务
-安装
 - step1
     </br>在D盘根目录创建一个文件夹mongodb
     </br>在mongodb文件夹下创建data文件夹
