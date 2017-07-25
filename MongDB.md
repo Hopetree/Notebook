@@ -16,6 +16,7 @@
 - step5
     </br>打开系统该服务，开始MongoDB
     </br>如果无法开启服务，且报错代号100，则打开mongodb\data\db文件夹，删除mongod.lock和storage.bson
+    </br>另外附一个安装和配置及可视化工具问题的链接：http://www.bubuko.com/infodetail-2147116.html
 ## mongoimport mongo导入Json的用法
 - step1:
 </br>cmd进入mongodb\bin
