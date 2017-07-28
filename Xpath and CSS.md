@@ -5,6 +5,8 @@
 </br>`//p[contains(@class, 'msg')]`
 - 用and链接，选择所有属性，更精确
 </br>`//p[contains(@class, 'msg') and contains(@class,'ltype')]`
+- 这个用法的最厉害的地方在于，后面的关键词可以只有一半，相当于一种正则匹配，例如
+</br>`//p[contains(@class,"m")]`
 
 2、选择一个节点的兄弟节点
 ```markdown
