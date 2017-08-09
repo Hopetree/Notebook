@@ -9,7 +9,7 @@
 创建一个虚拟环境：
 - 创建一个虚拟环境，可以在任何目录的状态下在cmd中输入如下命令：`mkvirtualenv blog_env`
 </br>可以看到类似如下回应：
-```python
+```markdown
 Using base prefix 'f:\\python352'
 New python executable in C:\Users\happy\Envs\blog_env\Scripts\python.exe
 Installing setuptools, pip, wheel...done.
@@ -19,7 +19,7 @@ Installing setuptools, pip, wheel...done.
 现在可以看到C:\Users\happy\Envs\目录下多了个文件夹blog_env，同理，以后按照这个方式创建的虚拟环境都会保存在这个文件夹下
 
 现在可以看到cmd显示的类似于(blog_env) F:\DjangoSpace>，比本机环境多了个括号前面的，这表示已经在blog_env环境中了，可以使用 `pip list`来看一下当前环境下的包，回应内容类似于：
-```python
+```markdown
 DEPRECATION: The default format will switch to columns in the future. You can use --format=(legacy|columns) (or define a format=(legacy|columns) in your pip.co
 nf under the [list] section) to disable this warning.
 pip (9.0.1)
