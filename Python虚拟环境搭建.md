@@ -12,7 +12,7 @@
 >变量名：WORKON_HOME </br> 变量值：F:\space_env
 </br>可以看截图：
 
-![环境变量]()
+![环境变量](https://github.com/Hopetree/Notebook/blob/master/screenshots/virtualenv001.png)
 
 **说明**：
 - 如果不添加这个环境变量，那之后创建的虚拟环境会默认保存在C:\Users\happy\Envs 中，创建了这个之后就可以默认保存在这里
