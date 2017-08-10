@@ -1,4 +1,4 @@
-## Python虚拟环境virtualenv搭建
+## 一、Python虚拟环境virtualenv搭建
 
 **使用virtualenvwrapper代替virtualenv**
 
@@ -47,3 +47,12 @@ wheel (0.29.0)
 如果想要删除某个虚拟环境，则首先要**退出虚拟环境**，然后输入 `rmvirtualenv flask_env`即可
 
 想要查看所有虚拟环境可以F:\space_env 中输入 `lsvirtualenv` 即可列出所有虚拟环境
+
+## 二、生成虚拟环境需求文件和复制一个虚拟环境
+生成文件：
+
+在虚拟环境中使用 `(venv) $ pip freeze >requirements.txt` 可以生成一个虚拟环境的安装包版本文件
+
+复制环境：
+
+首先新建一个虚拟环境，然后把需求文件放入其中，运行 `(venv) $ pip install -r requirements.txt` 就可以按照需求包的内容复制一个安装包
