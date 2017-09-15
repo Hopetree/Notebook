@@ -31,7 +31,7 @@ dafault-character-set = utf8mb4
 - 如果一开始使用的是自带的数据库，需要把自带数据库的日志文件删除（即migrations中除了__init__文件之外的所有文件）
 - 重新运行数据库，添加新的内容
     
-### Django全完搜索应用
+### Django全文搜索应用
 #### 官方文档很有用，必须要看
 链接：https://django-haystack.readthedocs.io/en/v2.5.1/views_and_forms.html
 #### 视图是可以重写的
@@ -45,3 +45,6 @@ dafault-character-set = utf8mb4
 ```
 {{ object.body_to_markdown }}
 ```
+### 关于django使用邮箱
+#### 端口问题
+25端口在阿里云上面无法使用，所以必须换其他端口，在使用邮箱的时候要确保服务器端口已经开启了，例如163的端口本来是25，但是可以改成SSL加密的方式，端口就是465，然后在服务器上面开启这个端口就可以使用。
