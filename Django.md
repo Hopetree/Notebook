@@ -48,3 +48,6 @@ dafault-character-set = utf8mb4
 ### 关于django使用邮箱
 #### 端口问题
 25端口在阿里云上面无法使用，所以必须换其他端口，在使用邮箱的时候要确保服务器端口已经开启了，例如163的端口本来是25，但是可以改成SSL加密的方式，端口就是465，然后在服务器上面开启这个端口就可以使用。
+
+### 部署django
+Nginx+Gunicorn部署教程https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-16-04
