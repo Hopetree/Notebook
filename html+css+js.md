@@ -55,3 +55,24 @@
     content: "";
 }
 ```
+- 页脚始终在页面底部（不是固定）的css
+首先，页面的body结构如同：
+```
+<body>
+<div class="main"></div>
+<div class="footer"></div>
+</body>
+```
+这样之后，css可以写成这样：
+```
+body {
+	display: -webkit-flex; /* Safari */
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+.main-body {
+	flex: 1 0 auto;
+}
+```
