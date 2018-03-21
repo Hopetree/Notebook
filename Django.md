@@ -51,3 +51,5 @@ dafault-character-set = utf8mb4
 
 ### 部署django
 Nginx+Gunicorn部署教程https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-16-04
+
+![www.seoerzone.com](http://cdn.seoerzone.com/article/180321/seoerzone-01.png)
