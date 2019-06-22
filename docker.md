@@ -1,5 +1,8 @@
 ## 安装 docker
 
+> docker-io, docker-engin 是以前早期的版本，版本号是 1.*，默认centos7 安装的是docker-io，最新版是 1.13;Ubuntu默认安装的是docker-ce
+,docker-ce 是社区版本，适用于刚刚开始docker 和开发基于docker研发的应用开发者或者小型团队,所以这里统一为安装docker-ce
+
 ### CentOS 系统安装 docker
 1. 查询内核版本，docker内核版本必须是3.10+以上的版本
 ```
