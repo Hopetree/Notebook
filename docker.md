@@ -20,6 +20,11 @@ sudo yum remove docker \
                   docker-logrotate \
                   docker-engine
 ```
+2-2. 清理目录
+```
+rm -rf /var/lib/docker
+rm -rf /var/run/docker
+```
 
 3. 更新yum
 ```
