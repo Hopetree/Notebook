@@ -11,7 +11,14 @@ uname -r
 
 2. 卸载老版本的 docker 及其相关依赖
 ```
-sudo yum remove docker docker-common container-selinux docker-selinux docker-engine
+sudo yum remove docker \
+                  docker-client \
+                  docker-client-latest \
+                  docker-common \
+                  docker-latest \
+                  docker-latest-logrotate \
+                  docker-logrotate \
+                  docker-engine
 ```
 
 3. 更新yum
